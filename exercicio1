@@ -1,0 +1,11 @@
+1- bloqueio de pastas: as pastas são partilhadas com permissões especificas, e todos que não as têm não conseguem aceder ás pastas
+necessidade de efetuar login com cardenciais proprias: neste caso, fica muito mais seguro pois dificulta a entrada de pessoas indesejadas nas contas da impressa, incluindo funcionários e outros departamentos
+impressora compartilhada entre duas entidades: a impressora é partilhada por duas entidades, em que cada um tem ou não uma permissão para usar a impressora, e cada permissão tem seus detalhes especificos
+
+2- o funcionario em questão não pode aceder á pasta do departamento de RH pois estaria barrada pelo departamento para os outros funcionários, como os funcionários da produção e recursos humanos
+
+3- Ao fazer isso o sistema operadorativo impede que as contas dos usuarios sejam mais facilmentes acessadas pelos colegas de trabalho, ou pessoas de fora do ambiente de trabalho
+
+4- o SON vai verificar a permissão de cada usuario, paara saber os detalhes se a pessoa em questão pode usar ou não a empressora, que funcionalidades pode usar, etc
+
+5- o sistema operativo deteta uma tentativa de acesso não autorizado pelo IP, verificando se o IP em questão é de dentro da impressa ou não
