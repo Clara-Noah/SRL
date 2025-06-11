@@ -1,0 +1,16 @@
+desenhar a estrutura da rede "tecnolab"
+
+
+                                                        / [computador1]
+servidor linux  ------- Administração---------------------[computador2]
+   (ubuntu)    |          |                             \ [computador3]
+ _________     |          |                                                                  
+| . . . . |    |          |                             / [computador4]
+| . . . . | ---------- Recursos humanos-------------------[computador5]
+|_________|    |          |                             \ [computador6]
+    |          |          |                                                                  
+    |          |          |                             / [computador7]
+    |          ------- departamento Produção -------------[computador8]
+    |                     |                             \ [computador9]
+    |                     |
+[impressora]--------------|
