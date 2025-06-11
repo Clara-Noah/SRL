@@ -14,6 +14,3 @@ servidor linux  ---(fibra)---- Administração--------------------- [computador2
     |                             |                             \ [computador9]
     |                             |
 [impressora]---(fibra/WIFI)-------|
-
-
-os departamentos estão ligados ao servidor
