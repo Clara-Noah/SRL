@@ -1,16 +1,19 @@
 desenhar a estrutura da rede "tecnolab"
 
 
-                                                        / [computador1]
-servidor linux  ------- Administração---------------------[computador2]
-   (ubuntu)    |          |                             \ [computador3]
- _________     |          |                                                                  
-| . . . . |    |          |                             / [computador4]
-| . . . . | ---------- Recursos humanos-------------------[computador5]
-|_________|    |          |                             \ [computador6]
-    |          |          |                                                                  
-    |          |          |                             / [computador7]
-    |          ------- departamento Produção -------------[computador8]
-    |                     |                             \ [computador9]
-    |                     |
-[impressora]--------------|
+                                                                / [computador1]
+servidor linux  ---(fibra)---- Administração--------------------- [computador2]
+   (ubuntu)    |                  |                             \ [computador3]
+ _________     |                  |                                                                  
+| . . . . |    |                  |                             / [computador4]
+| . . . . | --------(fibra)-- Recursos humanos------------------- [computador5]
+|_________|    |                  |                             \ [computador6]
+    |          |                  |                                                                  
+    |          |                  |                             / [computador7]
+ (fibra)        -----(fibra)-- departamento Produção------------- [computador8]
+    |                             |                             \ [computador9]
+    |                             |
+[impressora]---(fibra/WIFI)-------|
+
+
+os departamentos estão ligados ao servidor
