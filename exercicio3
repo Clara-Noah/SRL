@@ -1,0 +1,12 @@
+                                                                                                              /login correto: acede aos recursos da pasta de recursos humanos/RH
+                                                                       /RH_Leonardo //acesso: leitura e escrita
+                         / GRP_RH-------pasta recursos humanos----------                                      
+                       /                                               \RH_Jorge //acesso: leitura e escrita
+ _______________     /
+|   servidor    |  /                                               /FIN_Margarida //acesso: leitura e escrita
+| linux(ubuntu) |----------GRP_FIN----------pasta finanças---------
+|_______________|  \                                               \FIN_Michael //acesso: leitura e escrita
+                     \
+                       \                                  /IT_Mafalda //acesso: leitura e escrita
+                         \ GRP_IT-------pasta TI-----------
+                                                          \IT_Vera //acesso: leitura e escrita
